@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+body{
+    color: #356859;
+}
+.container{
+    margin-top: 50px;
+}
+#row-one{
+    margin-bottom: 0px;
+}
+.col-main{
+    max-width: 380px;
+    height: 600px;
+    margin: 40px;
+    margin: 20px 40px;
+    background-image: linear-gradient(to bottom right, #ffb74d, #fffbe6);
+}
+/**************** slide1 ***********/
+#row-one .logo{
+    width: 280px;
+    height: 280px;
+    margin-top: 0;
+}
+.btn, .btn-large, .btn-small, .btn-flat {
+    text-transform: none;
+    color: #356859;
+}
+.sign-button{
+    margin-top: 130px;
+}
+#slide1 .btn-large{
+    padding: 0 88px;
+    border-radius: 45px;
+}
+
+/**************** slide2 ***********/
+
+.input-field input[type=text]:focus + label {
+    color: #356859;}
+
+.input-field label {
+    color: #356859;
+}
+input[type=text]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=password]:not(.browser-default){
+    border-bottom: 1px solid #356859;
+} 
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label{
+    color: #356859;
+}
+.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=password]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid orangered !important;
+    box-shadow: 0 1px 0 0 orangered !important; 
+}
+.input{
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+#slide2 .sign-button{
+    margin-top: 0;
+}
+#row-one #slide2 .btn-large{
+    padding: 0 88px;
+    border-radius: 45px;
+}
+
+/**************** Slide2 end ***********/
+
+
+/******************* Row 2 *************/
+/****************** Slide1 *************/
+
+#row-two{
+    margin-bottom: 0px;
+}
+#row-two img{
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 50px;
+}
+#row-two h4{
+    color: orangered;
+}
+.tabs{
+    background: #fffbe6; 
+}
+.tabs .tab a{
+    color: orangered;
+    padding: 0 8px;
+    text-transform: none;
+}
+.material-icons{
+    padding-top: 5px;
+    padding-right: 5px !important; 
+}
+#row-two .paragraph2{
+    margin-bottom: 0;
+}
+#row-two .btn{
+    padding: 0 48px;
+    border-radius: 45px;
+}
+
+/******************** row three *************************/
+
+#row-three .car, .avatar{
+    margin-bottom: 0px;
+}
+#row-three img{
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 50px;
+}
+#row-three .card-action{
+    padding: 0 0 5px;
+}
+.card-paragraph{
+    margin-bottom: 15px !important;
+    color: #356859;
+}
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #356859;
+    background-color: #356859;
+}
+
+#row-three .sign-button{
+    margin-top: 0;
+}
+#row-three .btn{
+    padding: 0 48px;
+    border-radius: 45px;
+}
+
+/****************** Slide 2 *********/
+#row-three h4{
+    color: #ff4500;
+    margin: 5px;
+}
+#test-swipe-6 p{
+    margin: 8px 0;
+}
